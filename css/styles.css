@@ -1,0 +1,4 @@
+.error {
+    color: #dc3545; /* Bootstrap's red color for errors */
+    font-size: 0.875em; /* Smaller font size for error messages */
+}
