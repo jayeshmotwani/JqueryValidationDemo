@@ -22,6 +22,19 @@ This project showcases a login form with client-side validation using the jQuery
 - **`inc/adodb5/`**: Directory containing ADOdb library files.
 - **`css/styles.css`**: Custom CSS file for additional styling.
 
+## Database Setup
+
+To set up the database, you can use the provided dump file.
+
+**Import Database Dump:**
+
+1. Place the `database_dump.sql` file in a directory of your choice.
+2. Import the dump into your MySQL database:
+
+   ```bash
+   mysql -u [username] -p [database_name] < db/database_dump.sql
+
+
 ## Setup Instructions
 
 1. **Clone the Repository**:
